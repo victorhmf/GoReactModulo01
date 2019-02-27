@@ -1,0 +1,6 @@
+{
+  //preset-env => Trasnpila novas funcionalidades do javascript para o navegador entender
+  //preset-react => Trasnpila funcionalidades do react para o navegador entender
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
